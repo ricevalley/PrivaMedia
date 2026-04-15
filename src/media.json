@@ -1,0 +1,9 @@
+{
+	"ashitakara": {
+		"title": "Sample",
+		"description": "Sample Video",
+		"thumbnail": "/src/sample/thumbnail.jpg",
+		"video": "/src/sample/video.mp4",
+		"captions": "/src/sample/captions.vtt"
+	}
+}

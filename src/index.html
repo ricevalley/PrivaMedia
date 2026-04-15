@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<link rel="stylesheet" type="text/css" href="/common/common.css">
+	<link rel="stylesheet" type="text/css" href="./PrivaMedia.css">
+	<script>
+	const commonset_page_title = 'Priva Media | Native-ToyBox';
+	const commonset_header_title = 'priva media';
+	const header_enable = true;
+	</script>
+	<script type="module" src="/common/common.js"></script>
+</head>
+<body>
+	<div id="lockField">
+		<div id="numberPad">
+			<p class="password"></p>
+			<button data-btn="7">7</button>
+			<button data-btn="8">8</button>
+			<button data-btn="9">9</button>
+			<button data-btn="4">4</button>
+			<button data-btn="5">5</button>
+			<button data-btn="6">6</button>
+			<button data-btn="1">1</button>
+			<button data-btn="2">2</button>
+			<button data-btn="3">3</button>
+			<button data-btn="0">0</button>
+			<button data-btn="delete">←</button>
+			<button data-btn="enter">→</button>
+		</div>
+	</div>
+	<div id="mainArea" class="is-hidden">
+		<set-header></set-header>
+		<main>
+			<div class="background">
+				<p class="title">Priva Media</p>
+				<hr class="hr-default">
+				<div id="mediaPlayField" class="is-hidden"></div>
+				<ul id="mediaList"></ul>
+			</div>
+		</main>
+		<set-footer></set-footer>
+	</div>
+	<script type="module" src="./PrivaMedia.js"></script>
+</body>
+</html>
